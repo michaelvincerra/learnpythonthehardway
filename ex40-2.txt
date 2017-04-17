@@ -1,0 +1,2 @@
+mystuff = {'apple': "I am appellate court justice Dem Apples."}
+print mystuff['apple']

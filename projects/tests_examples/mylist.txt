@@ -1,0 +1,7 @@
+mylist = [0, 1, 2]
+
+def test_c(): 
+	mylist.int()+1 
+	
+	
+	
