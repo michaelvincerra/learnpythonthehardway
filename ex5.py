@@ -6,13 +6,11 @@ eyes = 'Blue'
 teeth = 'White'
 hair = 'Brown'
 
-print "Let's talk about %s." % name
-print "He's %d inches tall." % height
-print "He's %d pounds heavy."% weight
-print "Actually that's not too heavy." 
-print "He's got %s eyes and %s hair." % (eyes, hair)
-print "his teeth are usually %s depending on the coffee." % teeth
-
+print(f"Let's talk about {name}." )
+print(f"He's {height} inches tall.")
+print(f"He's {weight} pounds heavy." )
+print("Actually that's not too heavy.")
+print(f"He's got {eyes} eyes and {hair} hair.")
+print(f"His teeth are usually {teeth} depending on the coffee.")
 # this line is tricky, try to get it exactly right
-print "If I add %d, %d, and %d I get %d." % (age, height, weight, age + height + weight)
-  
+print(f"If I add {age}, {height}, {weight}, I get:", age + height + weight)
