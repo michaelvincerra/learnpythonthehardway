@@ -63,7 +63,7 @@ def start():
 	print "Decide which field where you'll contribute innovation."
 	print "Do you choose Art or Science?"
 	
-	choice = raw_input("> ")	
+	choice = raw_input(">> ")
 	
 	if choice == "Art":
 		A_room()

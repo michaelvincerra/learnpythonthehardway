@@ -19,4 +19,4 @@ else:
 if people > trucks:
 	print "Alright, let's just take the trucks."
 else:
-	print "Fine, let's jus stay home then." 
+	print "Fine, let's just stay home then."
