@@ -9,16 +9,17 @@ script, filename = argv
 txt = open(filename)
 
 # where "filename" becomes the input variable referenced in the command line
-print "Here's your file %r:" % filename
+
+print(f"Here's your file: {filename}")
 # instruction for T to read the filename contents
-print txt.read()
+print(txt.read())
 
 # where command prompts user to type in the filename again in order to see the file contents
-print "Type the filename again:"
-file_again = raw_input(">")
+print("Type the filename again:")
+file_again = raw_input(">> ")
 
 # command to execute opening of filename entered
 txt_again = open(file_again)
 
 # command to DISPLAY the contents of filename
-print txt_again.read()
+print(txt_again.read())

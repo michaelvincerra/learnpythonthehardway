@@ -1,15 +1,15 @@
- x = "There are %d types of people." % 10
+x = "There are 10 types of people."
 binary = "binary"
 do_not = "don't"
 # string inside a string
-y = "Those who know %s and thosez who %s" % (binary, do_not)
+y = "Those who know %s and those who %s" % (binary, do_not)
 
-print x
-print y
+print(x)
+print(y)
 #  string inside a string
-print "I said: %r." % x
-#string inside a string
-print "I also said: '%s'." %y
+print("I said: %r." % x
+#string inside a string)
+print("I also said: '%s'.")
 
 hilarious  = False
 joke_evaluation = "Isn't that joke so funny?! %r"
